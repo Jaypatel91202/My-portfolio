@@ -40,8 +40,7 @@ const Contact = () => {
                 <div>
                   <h3>Address</h3>
                   <p className="justify">
-                    Industrial Estate Rd, Khanna Nagar, Cuttack, Odisha, India
-                    753012
+                    Vadodara, Gujarat
                   </p>
                 </div>
               </div>
@@ -53,7 +52,6 @@ const Contact = () => {
                 <i className="bi bi-globe flex-shrink-0"></i>
                 <div>
                   <h3>Website</h3>
-                  <p>https://samarjit.vercel.app</p>
                 </div>
               </div>
               <div
@@ -64,12 +62,12 @@ const Contact = () => {
                 <i className="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h3>Email</h3>
-                  <p>samarjit9203@gmail.com</p>
+                  <p>jaypatel91202@gmail.com</p>
                 </div>
               </div>
               <iframe
-                title="Samarjit's Point"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3383.1335970158!2d85.89356167469906!3d20.445291707563758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190d0049c3a72d%3A0xf3f4cf5e4098a38f!2sSamarjit&#39;s%20Point!5e1!3m2!1sen!2sin!4v1741251589560!5m2!1sen!2sin"
+                title="Jay's Point"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3739.401258904646!2d73.18121817458194!3d22.30715834309127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc8f2d2f24aab%3A0x8c5f3ecf1c27b0ce!2sVadodara%2C%20Gujarat!5e1!3m2!1sen!2sin!4v1743928690762!5m2!1sen!2sin"
                 className="map-iframe"
                 allowFullScreen
                 loading="lazy"
@@ -88,7 +86,7 @@ const Contact = () => {
               <input
                 type="hidden"
                 name="access_key"
-                value="61139b40-a173-442e-940b-da5d6657cb4b"
+                value="05b33b8a-c5c5-4865-9c19-0f1cb5c5146b"
               />
               <div className="row gy-4">
                 <div className="col-md-6">
