@@ -11,11 +11,8 @@ import Tech from "./components/Tech/Tech";
 import Resume from "./components/Resume/Resume";
 import Projects from "./components/Projects/Projects";
 import ProjectDetails from "./components/Projects/ProjectDetails";
-import Certifications from "./components/Certifications/Certifications";
-import Testimonials from "./components/Testimonials/Testimonials";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import Chatbot from "./components/Chatbot/Chatbot";
 import Error from "./components/Error/Error";
 
 function App() {
@@ -35,10 +32,7 @@ function App() {
                   <Tech />
                   <Resume />
                   <Projects />
-                  <Certifications />
-                  <Testimonials />
                   <Contact />
-                  <Chatbot />
                 </>
               }
             />

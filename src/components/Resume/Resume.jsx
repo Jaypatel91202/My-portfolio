@@ -3,55 +3,52 @@ import "./Resume.scss";
 
 const Resume = () => {
   const contactInfo = [
-    "samarjit9203@gmail.com",
-    "https://samarjit.vercel.app",
-    "linkedin.com/in/samarjitsahoo",
-    "github.com/samarjitsahoo",
+    "jaypatel91202@gmail.com",
+    "linkedin.com/in/jay-patel09",
+    "github.com/Jaypatel91202",
   ];
   const education = [
     {
       title: "Bachelor of Technology",
       duration: "2021 - 2025",
-      institution: "DRIEMS University",
+      institution: "Sardar vallabhbhai Patel institute of Technology",
       description:
         "During my B.Tech, I immersed myself in hands-on projects involving modern programming languages, software development tools, and system design. This practical experience helped me build a solid technical foundation and prepared me for real-world challenges in the IT field.",
     },
-    {
-      title: "Higher Secondary Education",
-      duration: "2018 - 2021",
-      institution: "Ravenshaw University",
-      description:
-        "During my higher education, I focused on the fundamentals of computer science, including basic programming concepts, software development, and system operations. This solid foundation has prepared me for practical applications and further growth in the IT field.",
-    },
-    {
-      title: "Matriculation",
-      duration: "2018",
-      institution: "Kendriya Vidyalaya",
-      description:
-        "During my matriculation, I laid the groundwork with core subjects in computer science, learning the essentials of programming, hardware, and software basics. This early education provided me with a solid start in the IT field.",
-    },
+    
   ];
   const internships = [
     {
-      company: "NovaNectar Services Pvt. Ltd.",
-      duration: "June 2024",
-      location: "Dehradun, Uttarakhand, India",
+      company: "Confidosoft Solutions Pvt Ltd",
+      duration: "Januray 2025 - Present",
+      location: "Vadodara, Gujarat, India",
       responsibilities: [
-        "Developed a face detection model using Python and OpenCV, achieving high accuracy in identifying and localizing faces in images and video streams.",
-        "Created a predictive model for estimating car prices based on various features such as make, model, year, and mileage using machine learning algorithms like Linear Regression and Decision Trees.",
-        "Implemented data preprocessing techniques and model training processes to enhance the model performance, accuracy, and efficiency.",
+        "During my internship, I worked on designing and developing responsive web interfaces using HTML, CSS, JavaScript, Bootstrap, and Angular.",
+        "I contributed to real-world projects by applying best practices in front-end development, improving UI/UX, and ensuring mobile compatibility.",
+        "Additionally, I collaborated with the team to implement features, debug issues, and enhance overall website performance and user experience.",
       ],
     },
     {
-      company: "OctaNet Services Pvt. Ltd.",
-      duration: "April 2024",
-      location: "Bhubaneshwar, Odisha, India",
+      company: "GSFC LTD",
+      duration: "August 2024",
+      location: "Vadodara, Gujarat, India",
       responsibilities: [
-        "Designed and developed a responsive landing page for the company using HTML, CSS, and JavaScript.",
-        "Created a fully functional to-do list application with CRUD (Create, Read, Update, Delete) operations.",
-        "Implemented modern design principles to enhance user experience and engagement.",
+        "SAP ERP Implementation: Gained hands-on experience in working with SAP ERP modules to streamline business processes and enhance operational efficiency.",
+        "Customization & Optimization: Collaborated with the IT team to troubleshoot, customize, and optimize ERP solutions to meet organizational needs.",
+        "Workflow Enhancement: Contributed to improving workflow management by implementing efficient ERP configurations and resolving system challenges.",
       ],
     },
+    {
+      company: "TopNotch IT Consultant",
+      duration: "July 2024",
+      location: "Vadodara, Gujarat, India",
+      responsibilities: [
+        "Comprehensive System Development: Designed and implemented a robust education management system with dedicated modules for super admins, faculty, parents, and students..",
+        "Secure Authentication & Data Management: Integrated secure authentication mechanisms and optimized data handling using PHP Laravel and MySQL.",
+        "Process Optimization: Streamlined academic and administrative workflows, enhancing efficiency in user management, course handling, and communication.",
+      ],
+    },
+    
   ];
 
   return (
@@ -59,7 +56,7 @@ const Resume = () => {
       <div className="container section-title" data-aos="fade-up">
         <h2>Resume</h2>
         <a
-          href="https://drive.google.com/uc?id=1D3qRmxsVeih2Ht6voj7IXV5kkd4Rch1p&export=download"
+          href="https://drive.google.com/file/d/1kvr55OMgc20_LmQfg2s17lj7TDkX573H/view?usp=drive_link"
           className="icon resume"
           target="_blank"
           download="Resume"
@@ -83,7 +80,7 @@ const Resume = () => {
           <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 className="resume-title">Summary</h3>
             <div className="resume-item pb-0">
-              <h4>Samarjit Sahoo</h4>
+              <h4>Jay Patel</h4>
               <p className="justify">
                 I am an aspiring and passionate IT professional with a strong
                 foundation in programming and software development. I recently

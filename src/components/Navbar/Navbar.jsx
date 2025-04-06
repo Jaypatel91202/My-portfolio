@@ -66,27 +66,21 @@ const Navbar = () => {
         }`}
         onClick={toggleHeader}
       ></i>
-      <div className="profile-img">
-        <img
-          src="https://res.cloudinary.com/dry07iyvo/image/upload/v1739884235/samarjitt_fcy3t2.jpg"
-          alt="Profile"
-          className="img-fluid rounded-circle"
-        />
-      </div>
+     
       <Link
         to="/"
         className="logo d-flex align-items-center justify-content-center"
         style={{ textDecoration: "none" }}
       >
-        <h1 className="sitename">Samarjit Sahoo</h1>
+        <h1 className="sitename mt-5">Jay Patel</h1>
       </Link>
       <div className="social-links text-center">
         <a
-          href="mailto:samarjit9203@gmail.com"
+          href="mailto:jaypatel91202@gmail.com"
           className="icon gmail"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Email Samarjit"
+          aria-label="Email Jay"
         >
           <i className="bi bi-envelope-fill"></i>
         </a>
@@ -117,8 +111,6 @@ const Navbar = () => {
             { href: "#about", icon: "person", label: "About" },
             { href: "#resume", icon: "file-earmark-text", label: "Resume" },
             { href: "#projects", icon: "images", label: "Projects" },
-            { href: "#certifications", icon: "award", label: "Certifications" },
-            { href: "#testimonials", icon: "people", label: "Testimonials" },
             { href: "#contact", icon: "envelope", label: "Contact" },
           ].map((item) => (
             <li key={item.href}>
