@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.scss";
+import photo from '../../assets/photo.png';
 
 const About = () => (
   <section id="about" className="about section">
@@ -13,7 +14,7 @@ const About = () => (
       <div className="row gy-4 justify-content-center">
         <div className="col-lg-4 text-center">
           <img
-            src=""
+            src={photo}
             className="img-fluid"
             style={{
               maxWidth: "80%",
