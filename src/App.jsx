@@ -9,8 +9,6 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Tech from "./components/Tech/Tech";
 import Resume from "./components/Resume/Resume";
-import Projects from "./components/Projects/Projects";
-import ProjectDetails from "./components/Projects/ProjectDetails";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Error from "./components/Error/Error";
@@ -31,12 +29,10 @@ function App() {
                   <About />
                   <Tech />
                   <Resume />
-                  <Projects />
                   <Contact />
                 </>
               }
             />
-            <Route path="/projects" element={<ProjectDetails />} />
             <Route path="*" element={<Error />} />
           </Routes>
         </main>

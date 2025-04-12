@@ -85,20 +85,20 @@ const Navbar = () => {
           <i className="bi bi-envelope-fill"></i>
         </a>
         <a
-          href="https://github.com/samarjitsahoo"
+          href="https://github.com/Jaypatel91202"
           className="icon github"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Visit Samarjit's GitHub profile"
+          aria-label="Visit Jay patel's GitHub profile"
         >
           <i className="bi bi-github"></i>
         </a>
         <a
-          href="https://www.linkedin.com/in/samarjitsahoo/"
+          href="https://www.linkedin.com/in/jay-patel09/"
           className="icon linkedin"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Connect with Samarjit on LinkedIn"
+          aria-label="Connect with Jay on LinkedIn"
         >
           <i className="bi bi-linkedin"></i>
         </a>
@@ -110,7 +110,6 @@ const Navbar = () => {
             { href: "#home", icon: "house", label: "Home" },
             { href: "#about", icon: "person", label: "About" },
             { href: "#resume", icon: "file-earmark-text", label: "Resume" },
-            { href: "#projects", icon: "images", label: "Projects" },
             { href: "#contact", icon: "envelope", label: "Contact" },
           ].map((item) => (
             <li key={item.href}>
