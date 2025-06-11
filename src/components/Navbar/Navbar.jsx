@@ -72,7 +72,7 @@ const Navbar = () => {
         className="logo d-flex align-items-center justify-content-center"
         style={{ textDecoration: "none" }}
       >
-        <h1 className="sitename mt-5">Jay Patel</h1>
+        <h1 className="sitename mt-5">Deep Patel</h1>
       </Link>
       <div className="social-links text-center">
         <a
